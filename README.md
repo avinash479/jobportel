@@ -34,7 +34,10 @@ It provides **secure authentication, job posting, resume management, and real-ti
 - **Security Enhancements:** Helmet, CORS, Express-rate-limit  
 
 ---
+## Environment Variables
 
+To run this project, create a `.env` file in the root directory and add the following environment variables:
+MONGO_URI=your_mongodb_connection_string DATABASE_URL=your_postgresql_connection_string , JWT_SECRET=your_jwt_secret_key
 ## ⚙️ Installation and Setup
 ### **1️⃣ Clone the Repository**
 ```sh
